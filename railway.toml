@@ -2,6 +2,5 @@
 startCommand = "python main.py"
 
 [[cron]]
-# runs every day at 00:00 UTC
-schedule = "0 0 * * *"
+schedule = "*/5 * * * *"
 command = "python main.py"
