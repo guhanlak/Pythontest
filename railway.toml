@@ -1,9 +1,7 @@
-[build]
-builder = "python"
-
 [deploy]
 startCommand = "python main.py"
 
 [[cron]]
-schedule = "0 0 * * *"   # runs every day at 00:00 UTC
+# runs every day at 00:00 UTC
+schedule = "0 0 * * *"
 command = "python main.py"
